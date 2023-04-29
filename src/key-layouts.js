@@ -69,11 +69,13 @@ export default {
       small: 'Backspace',
       shift: null,
       code: 'backspace',
+      value: 'backspace-key'
     },
     {
       small: 'Tab',
       shift: null,
       code: 'tab',
+      value: 'tab'
     },
     {
       small: 'q',
@@ -139,11 +141,13 @@ export default {
       small: 'Delete',
       shift: null,
       code: 'delete',
+      value: 'delete'
     },
     {
       small: 'CapsLock',
       shift: null,
       code: 'capsLock',
+      value: 'caps-key'
     },
     {
       small: 'a',
@@ -204,11 +208,13 @@ export default {
       small: 'Enter',
       shift: null,
       code: 'enter',
+      value: 'enter-key'
     },
     {
       small: 'Shift',
       shift: null,
       code: 'shiftLeft',
+      value: 'shift-key'
     },
     {
       small: 'z',
@@ -269,56 +275,67 @@ export default {
       small: '&uarr;',
       shift: null,
       code: 'arrowUp',
+      value: 'arrow-up'
     },
     {
       small: 'Shift',
       shift: null,
       code: 'shiftRight',
+      value: 'shift-right'
     },
     {
       small: 'Ctrl',
       shift: null,
       code: 'controlLeft',
+      value: 'control-left'
     },
     {
       small: 'Win',
       shift: null,
       code: 'win',
+      value: 'win'
     },
     {
       small: 'Alt',
       shift: null,
       code: 'altLeft',
+      value: 'alt-left'
     },
     {
       small: ' ',
       shift: null,
       code: 'space',
+      value: 'space-key'
     },
     {
       small: 'Alt',
       shift: null,
       code: 'altRight',
+      value: 'alt-right'
     },
     {
       small: 'Ctrl',
       shift: null,
       code: 'controlRight',
+      value: 'control-right'
     },
     {
       small: '&larr;',
       shift: null,
       code: 'arrowLeft',
+      value: 'arrow-left'
     },
     {
       small: '&darr;',
       shift: null,
       code: 'arrowDown',
+      value: 'arrow-down'
     },
     {
       small: '&rarr;',
       shift: null,
       code: 'arrowRight',
+      value: 'arrow-right'
     },
   ],
   ru: [
@@ -391,11 +408,13 @@ export default {
       small: 'Backspace',
       shift: null,
       code: 'backspace',
+      value: 'backspace-key'
     },
     {
       small: 'Tab',
       shift: null,
       code: 'tab',
+      value: 'tab'
     },
     {
       small: 'й',
@@ -461,11 +480,13 @@ export default {
       small: 'Delete',
       shift: null,
       code: 'delete',
+      value: 'delete'
     },
     {
       small: 'CapsLock',
       shift: null,
       code: 'capsLock',
+      value: 'caps-key'
     },
     {
       small: 'ф',
@@ -526,11 +547,13 @@ export default {
       small: 'Enter',
       shift: null,
       code: 'enter',
+      value: 'enter-key'
     },
     {
       small: 'Shift',
       shift: null,
       code: 'shiftLeft',
+      value: 'shift-key'
     },
     {
       small: 'я',
@@ -591,56 +614,67 @@ export default {
       small: '&uarr;',
       shift: null,
       code: 'arrowUp',
+      value: 'arrow-up'
     },
     {
       small: 'Shift',
       shift: null,
       code: 'shiftRight',
+      value: 'shift-right'
     },
     {
       small: 'Ctrl',
       shift: null,
       code: 'controlLeft',
+      value: 'control-left'
     },
     {
       small: 'Win',
       shift: null,
       code: 'win',
+      value: 'win'
     },
     {
       small: 'Alt',
       shift: null,
       code: 'altLeft',
+      value: 'alt-left'
     },
     {
       small: ' ',
       shift: null,
       code: 'space',
+      value: 'space-key'
     },
     {
       small: 'Alt',
       shift: null,
       code: 'altRight',
+      value: 'alt-right'
     },
     {
       small: 'Ctrl',
       shift: null,
       code: 'controlRight',
+      value: 'control-right'
     },
     {
       small: '&larr;',
       shift: null,
       code: 'arrowLeft',
+      value: 'arrow-left'
     },
     {
       small: '&darr;',
       shift: null,
       code: 'arrowDown',
+      value: 'arrow-down'
     },
     {
       small: '&rarr;',
       shift: null,
       code: 'arrowRight',
+      value: 'arrow-right'
     },
   ],
 };
