@@ -125,216 +125,216 @@ export default {
     {
       small: 'p',
       shift: 'P',
-      code: 'p',
+      code: 'KeyP',
     },
     {
       small: '[',
       shift: '{',
-      code: 'bracketLeft',
+      code: 'BracketLeft',
     },
     {
       small: ']',
       shift: '}',
-      code: 'bracketRight',
+      code: 'BracketRight',
     },
     {
       small: 'Delete',
       shift: null,
-      code: 'delete',
+      code: 'Delete',
       value: 'delete'
     },
     {
       small: 'CapsLock',
       shift: null,
-      code: 'capsLock',
+      code: 'CapsLock',
       value: 'caps-key'
     },
     {
       small: 'a',
       shift: 'A',
-      code: 'a',
+      code: 'KeyA',
     },
     {
       small: 's',
       shift: 'S',
-      code: 's',
+      code: 'KeyS',
     },
     {
       small: 'd',
       shift: 'D',
-      code: 'd',
+      code: 'KeyD',
     },
     {
       small: 'f',
       shift: 'F',
-      code: 'f',
+      code: 'KeyF',
     },
     {
       small: 'g',
       shift: 'G',
-      code: 'g',
+      code: 'KeyG',
     },
     {
       small: 'h',
       shift: 'H',
-      code: 'h',
+      code: 'KeyH',
     },
     {
       small: 'j',
       shift: 'J',
-      code: 'j',
+      code: 'KeyJ',
     },
     {
       small: 'k',
       shift: 'K',
-      code: 'k',
+      code: 'KeyK',
     },
     {
       small: 'l',
       shift: 'L',
-      code: 'l',
+      code: 'KeyL',
     },
     {
       small: ';',
       shift: ':',
-      code: 'semicolon',
+      code: 'Semicolon',
     },
     {
       small: "'",
       shift: '"',
-      code: 'quote',
+      code: 'Quote',
     },
     {
       small: 'Enter',
       shift: null,
-      code: 'enter',
+      code: 'Enter',
       value: 'enter-key'
     },
     {
       small: 'Shift',
       shift: null,
-      code: 'shiftLeft',
+      code: 'ShiftLeft',
       value: 'shift-key'
     },
     {
       small: 'z',
       shift: 'Z',
-      code: 'z',
+      code: 'KeyZ',
     },
     {
       small: 'x',
       shift: 'X',
-      code: 'x',
+      code: 'KeyX',
     },
     {
       small: 'c',
       shift: 'C',
-      code: 'c',
+      code: 'KeyC',
     },
     {
       small: 'v',
       shift: 'V',
-      code: 'v',
+      code: 'KeyV',
     },
     {
       small: 'b',
       shift: 'B',
-      code: 'b',
+      code: 'KeyB',
     },
     {
       small: 'n',
       shift: 'N',
-      code: 'n',
+      code: 'KeyN',
     },
     {
       small: 'm',
       shift: 'M',
-      code: 'm',
+      code: 'KeyM',
     },
     {
       small: ',',
       shift: '<',
-      code: 'comma',
+      code: 'Comma',
     },
     {
       small: '.',
       shift: '>',
-      code: 'dot',
+      code: 'Period',
     },
     {
       small: '/',
       shift: '?',
-      code: 'slash',
+      code: 'Slash',
     },
     {
       small: '\\',
       shift: '|',
-      code: 'backslash',
+      code: 'Backslash',
     },
     {
       small: '&uarr;',
       shift: null,
-      code: 'arrowUp',
+      code: 'ArrowUp',
       value: 'arrow-up'
     },
     {
       small: 'Shift',
       shift: null,
-      code: 'shiftRight',
+      code: 'ShiftRight',
       value: 'shift-right'
     },
     {
       small: 'Ctrl',
       shift: null,
-      code: 'controlLeft',
+      code: 'ControlLeft',
       value: 'control-left'
     },
     {
       small: 'Win',
       shift: null,
-      code: 'win',
+      code: 'MetaLeft',
       value: 'win'
     },
     {
       small: 'Alt',
       shift: null,
-      code: 'altLeft',
+      code: 'AltLeft',
       value: 'alt-left'
     },
     {
       small: ' ',
       shift: null,
-      code: 'space',
+      code: 'Space',
       value: 'space-key'
     },
     {
       small: 'Alt',
       shift: null,
-      code: 'altRight',
+      code: 'AltRight',
       value: 'alt-right'
     },
     {
       small: 'Ctrl',
       shift: null,
-      code: 'controlRight',
+      code: 'ControlRight',
       value: 'control-right'
     },
     {
       small: '&larr;',
       shift: null,
-      code: 'arrowLeft',
+      code: 'ArrowLeft',
       value: 'arrow-left'
     },
     {
       small: '&darr;',
       shift: null,
-      code: 'arrowDown',
+      code: 'ArrowDown',
       value: 'arrow-down'
     },
     {
       small: '&rarr;',
       shift: null,
-      code: 'arrowRight',
+      code: 'ArrowRight',
       value: 'arrow-right'
     },
   ],
@@ -342,338 +342,274 @@ export default {
     {
       small: 'ё',
       shift: 'Ё',
-      code: 'backQuote',
     },
     {
       small: '1',
       shift: '!',
-      code: 'digit1',
     },
     {
       small: '2',
       shift: '"',
-      code: 'digit2',
     },
     {
       small: '3',
       shift: '№',
-      code: 'digit3',
     },
     {
       small: '4',
       shift: ';',
-      code: 'digit4',
     },
     {
       small: '5',
       shift: '%',
-      code: 'digit5',
     },
     {
       small: '6',
       shift: ':',
-      code: 'digit6',
     },
     {
       small: '7',
       shift: '?',
-      code: 'digit7',
     },
     {
       small: '8',
       shift: '*',
-      code: 'digit8',
     },
     {
       small: '9',
       shift: '(',
-      code: 'digit9',
     },
     {
       small: '0',
       shift: ')',
-      code: 'digit0',
     },
     {
       small: '-',
       shift: '_',
-      code: 'minus',
     },
     {
       small: '=',
       shift: '+',
-      code: 'equal',
     },
     {
       small: 'Backspace',
       shift: null,
-      code: 'backspace',
       value: 'backspace-key'
     },
     {
       small: 'Tab',
       shift: null,
-      code: 'tab',
       value: 'tab'
     },
     {
       small: 'й',
       shift: 'Й',
-      code: 'q',
     },
     {
       small: 'ц',
       shift: 'Ц',
-      code: 'w',
     },
     {
       small: 'у',
       shift: 'У',
-      code: 'e',
     },
     {
       small: 'к',
       shift: 'К',
-      code: 'r',
     },
     {
       small: 'е',
       shift: 'Е',
-      code: 't',
     },
     {
       small: 'н',
       shift: 'Н',
-      code: 'y',
     },
     {
       small: 'г',
       shift: 'Г',
-      code: 'u',
     },
     {
       small: 'ш',
       shift: 'Ш',
-      code: 'i',
     },
     {
       small: 'щ',
       shift: 'Щ',
-      code: 'o',
     },
     {
       small: 'з',
       shift: 'З',
-      code: 'p',
     },
     {
       small: 'х',
       shift: 'Х',
-      code: 'bracketLeft',
     },
     {
       small: 'ъ',
       shift: 'Ъ',
-      code: 'bracketRight',
     },
     {
       small: 'Delete',
       shift: null,
-      code: 'delete',
       value: 'delete'
     },
     {
       small: 'CapsLock',
       shift: null,
-      code: 'capsLock',
       value: 'caps-key'
     },
     {
       small: 'ф',
       shift: 'Ф',
-      code: 'a',
     },
     {
       small: 'ы',
       shift: 'Ы',
-      code: 's',
     },
     {
       small: 'в',
       shift: 'В',
-      code: 'd',
     },
     {
       small: 'а',
       shift: 'А',
-      code: 'f',
     },
     {
       small: 'п',
       shift: 'П',
-      code: 'g',
     },
     {
       small: 'р',
       shift: 'Р',
-      code: 'h',
     },
     {
       small: 'о',
       shift: 'О',
-      code: 'j',
     },
     {
       small: 'л',
       shift: 'Л',
-      code: 'k',
     },
     {
       small: 'д',
       shift: 'Д',
-      code: 'l',
     },
     {
       small: 'ж',
       shift: 'Ж',
-      code: 'semicolon',
     },
     {
       small: 'э',
       shift: 'Э',
-      code: 'quote',
     },
     {
       small: 'Enter',
       shift: null,
-      code: 'enter',
       value: 'enter-key'
     },
     {
       small: 'Shift',
       shift: null,
-      code: 'shiftLeft',
       value: 'shift-key'
     },
     {
       small: 'я',
       shift: 'Я',
-      code: 'z',
     },
     {
       small: 'ч',
       shift: 'Ч',
-      code: 'x',
     },
     {
       small: 'с',
       shift: 'С',
-      code: 'c',
     },
     {
       small: 'м',
       shift: 'М',
-      code: 'v',
     },
     {
       small: 'и',
       shift: 'И',
-      code: 'b',
     },
     {
       small: 'т',
       shift: 'Т',
-      code: 'n',
     },
     {
       small: 'ь',
       shift: 'Ь',
-      code: 'm',
     },
     {
       small: 'б',
       shift: 'Б',
-      code: 'comma',
     },
     {
       small: 'ю',
       shift: 'Ю',
-      code: 'dot',
     },
     {
       small: '.',
       shift: ',',
-      code: 'slash',
     },
     {
       small: '\\',
       shift: '|',
-      code: 'backslash',
     },
     {
       small: '&uarr;',
       shift: null,
-      code: 'arrowUp',
       value: 'arrow-up'
     },
     {
       small: 'Shift',
       shift: null,
-      code: 'shiftRight',
       value: 'shift-right'
     },
     {
       small: 'Ctrl',
       shift: null,
-      code: 'controlLeft',
       value: 'control-left'
     },
     {
       small: 'Win',
       shift: null,
-      code: 'win',
       value: 'win'
     },
     {
       small: 'Alt',
       shift: null,
-      code: 'altLeft',
       value: 'alt-left'
     },
     {
       small: ' ',
       shift: null,
-      code: 'space',
       value: 'space-key'
     },
     {
       small: 'Alt',
       shift: null,
-      code: 'altRight',
       value: 'alt-right'
     },
     {
       small: 'Ctrl',
       shift: null,
-      code: 'controlRight',
       value: 'control-right'
     },
     {
       small: '&larr;',
       shift: null,
-      code: 'arrowLeft',
       value: 'arrow-left'
     },
     {
       small: '&darr;',
       shift: null,
-      code: 'arrowDown',
       value: 'arrow-down'
     },
     {
       small: '&rarr;',
       shift: null,
-      code: 'arrowRight',
       value: 'arrow-right'
     },
   ],

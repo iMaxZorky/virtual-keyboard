@@ -222,7 +222,7 @@ export default class Keyboard {
     if (key) {
       key.classList.add('active');
       this.outKey(key);
-      if (key.classList.contains('capsLock')) {
+      if (key.classList.contains('CapsLock')) {
         this.pressCaps = !this.pressCaps;
         this.toggleCase();
       }
@@ -241,7 +241,7 @@ export default class Keyboard {
   keyUp(event) {
     const key = document.querySelector(`.${event.code}`);
     if (key) {
-      if (key.classList.contains('capsLock')) {
+      if (key.classList.contains('CapsLock')) {
         if (this.pressCaps) {
           key.classList.add('active');
         } else {
@@ -250,7 +250,7 @@ export default class Keyboard {
       } else {
         key.classList.remove('active');
       }
-      if (event.code === 'shiftLeft' || event.code === 'shiftRight') {
+      if (event.code === 'ShiftLeft' || event.code === 'ShiftRight') {
         this.pressShift = false;
         this.toggleCase();
       }
@@ -262,7 +262,7 @@ export default class Keyboard {
     if (key) {
       key.classList.add('active');
       this.outKey(key);
-      if (key.classList.contains('capsLock')) {
+      if (key.classList.contains('CapsLock')) {
         this.pressCaps = !this.pressCaps;
         this.toggleCase();
       }
@@ -277,11 +277,11 @@ export default class Keyboard {
     this.textarea.focus();
     const keys = document.querySelectorAll('.active');
     keys.forEach((key) => {
-      if (key.innerHTML !== 'capsLock' && key.innerHTML !== 'Shift') key.classList.remove('active');
+      if (key.innerHTML !== 'CapsLock' && key.innerHTML !== 'Shift') key.classList.remove('active');
     });
     const key = event.target.closest('.keyboard__key');
     if (key) {
-      if (key.classList.contains('capsLock')) {
+      if (key.classList.contains('CapsLock')) {
         if (this.pressCaps) {
           key.classList.add('active');
         } else {
