@@ -23,14 +23,12 @@ export default class Keyboard {
 
     const title = document.createElement('h1');
     title.classList.add('title');
-    title.innerHTML = 'RSS Виртуальная клавиатура';
+    title.innerHTML = 'RSS Virtual keyboard';
     this.main.append(title);
 
     this.textarea = document.createElement('textarea');
-    this.textarea.classList.add('textarea');
+    this.textarea.classList.add('text-area');
     this.textarea.setAttribute('id', 'textarea');
-    this.textarea.setAttribute('rows', '10');
-    this.textarea.setAttribute('cols', '100');
     this.main.append(this.textarea);
 
 
@@ -53,40 +51,32 @@ export default class Keyboard {
         currentLangSpan.classList.add(currentLang);
         currentLangSpan.insertAdjacentHTML(
           'afterBegin',
-          `<span class="caseDown">${element.small}</span>`,
-        );
+          `<span class="caseDown">${element.small}</span>`);
         currentLangSpan.insertAdjacentHTML(
           'beforeEnd',
-          `<span class="caseUp hidden">${element.shift}</span>`,
-        );
+          `<span class="caseUp hidden">${element.shift}</span>`);
         currentLangSpan.insertAdjacentHTML(
           'beforeEnd',
-          `<span class="caps hidden">${element.shift}</span>`,
-        );
+          `<span class="caps hidden">${element.shift}</span>`);
         currentLangSpan.insertAdjacentHTML(
           'beforeEnd',
-          `<span class="shiftCaps hidden">${element.small}</span>`,
-        );
+          `<span class="shiftCaps hidden">${element.small}</span>`);
         
         // Слои клавиши второго языка. Обращаюсь к основному объекту, так как forEach крутится на одном списке клавиш
         const hiddenLangSpan = document.createElement('span');
         hiddenLangSpan.classList.add(hiddenLang, 'hidden');
         hiddenLangSpan.insertAdjacentHTML(
           'afterBegin',
-          `<span class="caseDown hidden">${keys[hiddenLang][index].small}</span>`,
-        );
+          `<span class="caseDown hidden">${keys[hiddenLang][index].small}</span>`);
         hiddenLangSpan.insertAdjacentHTML(
           'beforeEnd',
-          `<span class="caseUp hidden">${keys[hiddenLang][index].shift}</span>`,
-        );
+          `<span class="caseUp hidden">${keys[hiddenLang][index].shift}</span>`);
         hiddenLangSpan.insertAdjacentHTML(
           'beforeEnd',
-          `<span class="caps hidden">${keys[hiddenLang][index].shift}</span>`,
-        );
+          `<span class="caps hidden">${keys[hiddenLang][index].shift}</span>`);
         hiddenLangSpan.insertAdjacentHTML(
           'beforeEnd',
-          `<span class="shiftCaps hidden">${keys[hiddenLang][index].small}</span>`,
-        );
+          `<span class="shiftCaps hidden">${keys[hiddenLang][index].small}</span>`);
 
         newKey.append(hiddenLangSpan);
         newKey.append(currentLangSpan);
@@ -97,12 +87,18 @@ export default class Keyboard {
           newKey.classList.add('control');
         }
         
-        // const newKey = createButton(element.small, element.shift, element.code);
         this.keyContainer.append(newKey);
     });
 
     keyboard.append(this.keyContainer);
-    this.main.append(keyboard)
+    this.main.append(keyboard);
+
+    const descriptionText = document.createElement('p');
+    descriptionText.classList.add('description')
+    descriptionText.innerHTML = 'Keyboard made in Windows';
+    descriptionText.append(document.createElement("br"));
+    descriptionText.append('To switch the language, use the Ctrl + Alt combination');
+    this.main.append(descriptionText);
 
     this.saveLangToLocalStorage();
     document.addEventListener('keyup', this.keyUp.bind(this));

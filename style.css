@@ -1,27 +1,52 @@
+body{
+  background: url(./assets/background.jpg);
+  background-size: 100%;
+}
+
+.title {
+  text-shadow: #FC0 1px 0 10px;
+}
+
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.text-area {
+  width: 708px;
+  height: 200px;
+  padding: 22px 5px 5px 40px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  background: url(./assets/text-area.jpg);
+  caret-color: #000000;
+  color: #462faa;
+  font-size: 20px;
+  font-weight: 300;
+  overflow-x: hidden;
+  font-family: 'Segoe Script';
+  line-height: 24px;
+}
+
+.text-area:focus-visible {
+  border: 1px solid #00fc3f;
+}
+
 .hidden {
   display: none;
 }
 
-.text-area {
-  display: block;
-  margin: 0 auto 10px;
-  width: 600px;
-  height: 300px;
-}
-
 .keyboard {
   width: 700px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   padding: 5px;
-  background-color: rgb(135, 207, 183);
+  border-radius: 4px;
+  background-color: rgb(150 207 135);
 }
 
 .keyboard__keys {
@@ -42,18 +67,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: aquamarine;
+  color: #68eda2;
   outline: none;
-  background-color: rgb(79, 114, 102);
+  background-color: rgb(108 112 111);
   border: 0;
   border-radius: 4px;
-  font-size: 0.9em;
+  font-size: 1.1em;
   cursor: pointer;
   transition: .3s;
-}
-
-.keyboard__key:active {
-  background-color: rgb(44, 53, 50);
 }
 
 .shift-key {
@@ -77,11 +98,10 @@
 }
 
 .active {
-  background-color: rgb(41, 54, 50);
-  box-shadow: inset 0px 0px 10px #3a584e;
+  box-shadow: inset 0px 0px 45px #3a584e;
 }
 
-.caps-key_active::after {
+.caps-key.active::after {
   background-color: rgb(255, 174, 0);
 }
 
@@ -99,6 +119,12 @@
 }
 
 .space-key {
-  box-shadow: inset 0px 0px 10px #3a584e;
   min-width: 46%;
+}
+
+.description {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: #FC0 1px 0 10px;
 }
