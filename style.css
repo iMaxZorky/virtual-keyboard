@@ -37,8 +37,7 @@
 .keyboard__key {
   -webkit-tap-highlight-color: transparent;
   height: 45px;
-  min-width: 45px;
-  max-width: 90px;
+  width: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,7 +56,7 @@
 }
 
 .shift-key {
-  min-width: 90px;
+  min-width: 85px;
 }
 
 .caps-key {
@@ -76,7 +75,7 @@
   transition: .3s;
 }
 
-.caps-key_active {
+.active {
   background-color: rgb(41, 54, 50);
   box-shadow: inset 0px 0px 10px #3a584e;
 }
@@ -86,7 +85,12 @@
 }
 
 .backspace-key {
-  width: 90px;
+  width: 85px;
+}
+
+.delete,
+.tab {
+  width: 60px;
 }
 
 .enter-key {
