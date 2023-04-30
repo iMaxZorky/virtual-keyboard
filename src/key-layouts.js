@@ -69,13 +69,13 @@ export default {
       small: 'Backspace',
       shift: null,
       code: 'Backspace',
-      value: 'backspace-key'
+      value: 'backspace-key',
     },
     {
       small: 'Tab',
       shift: null,
       code: 'Tab',
-      value: 'tab'
+      value: 'tab',
     },
     {
       small: 'q',
@@ -141,13 +141,13 @@ export default {
       small: 'Delete',
       shift: null,
       code: 'Delete',
-      value: 'delete'
+      value: 'delete',
     },
     {
       small: 'CapsLock',
       shift: null,
       code: 'CapsLock',
-      value: 'caps-key'
+      value: 'caps-key',
     },
     {
       small: 'a',
@@ -208,13 +208,13 @@ export default {
       small: 'Enter',
       shift: null,
       code: 'Enter',
-      value: 'enter-key'
+      value: 'enter-key',
     },
     {
       small: 'Shift',
       shift: null,
       code: 'ShiftLeft',
-      value: 'shift-key'
+      value: 'shift-key',
     },
     {
       small: 'z',
@@ -275,67 +275,67 @@ export default {
       small: '&uarr;',
       shift: null,
       code: 'ArrowUp',
-      value: 'arrow-up'
+      value: 'arrow-up',
     },
     {
       small: 'Shift',
       shift: null,
       code: 'ShiftRight',
-      value: 'shift-right'
+      value: 'shift-right',
     },
     {
       small: 'Ctrl',
       shift: null,
       code: 'ControlLeft',
-      value: 'control-left'
+      value: 'control-left',
     },
     {
       small: 'Win',
       shift: null,
       code: 'MetaLeft',
-      value: 'win'
+      value: 'win',
     },
     {
       small: 'Alt',
       shift: null,
       code: 'AltLeft',
-      value: 'alt-left'
+      value: 'alt-left',
     },
     {
       small: ' ',
       shift: null,
       code: 'Space',
-      value: 'space-key'
+      value: 'space-key',
     },
     {
       small: 'Alt',
       shift: null,
       code: 'AltRight',
-      value: 'alt-right'
+      value: 'alt-right',
     },
     {
       small: 'Ctrl',
       shift: null,
       code: 'ControlRight',
-      value: 'control-right'
+      value: 'control-right',
     },
     {
       small: '&larr;',
       shift: null,
       code: 'ArrowLeft',
-      value: 'arrow-left'
+      value: 'arrow-left',
     },
     {
       small: '&darr;',
       shift: null,
       code: 'ArrowDown',
-      value: 'arrow-down'
+      value: 'arrow-down',
     },
     {
       small: '&rarr;',
       shift: null,
       code: 'ArrowRight',
-      value: 'arrow-right'
+      value: 'arrow-right',
     },
   ],
   ru: [
@@ -394,12 +394,12 @@ export default {
     {
       small: 'Backspace',
       shift: null,
-      value: 'backspace-key'
+      value: 'backspace-key',
     },
     {
       small: 'Tab',
       shift: null,
-      value: 'tab'
+      value: 'tab',
     },
     {
       small: 'й',
@@ -452,12 +452,12 @@ export default {
     {
       small: 'Delete',
       shift: null,
-      value: 'delete'
+      value: 'delete',
     },
     {
       small: 'CapsLock',
       shift: null,
-      value: 'caps-key'
+      value: 'caps-key',
     },
     {
       small: 'ф',
@@ -506,12 +506,12 @@ export default {
     {
       small: 'Enter',
       shift: null,
-      value: 'enter-key'
+      value: 'enter-key',
     },
     {
       small: 'Shift',
       shift: null,
-      value: 'shift-key'
+      value: 'shift-key',
     },
     {
       small: 'я',
@@ -560,57 +560,57 @@ export default {
     {
       small: '&uarr;',
       shift: null,
-      value: 'arrow-up'
+      value: 'arrow-up',
     },
     {
       small: 'Shift',
       shift: null,
-      value: 'shift-right'
+      value: 'shift-right',
     },
     {
       small: 'Ctrl',
       shift: null,
-      value: 'control-left'
+      value: 'control-left',
     },
     {
       small: 'Win',
       shift: null,
-      value: 'win'
+      value: 'win',
     },
     {
       small: 'Alt',
       shift: null,
-      value: 'alt-left'
+      value: 'alt-left',
     },
     {
       small: ' ',
       shift: null,
-      value: 'space-key'
+      value: 'space-key',
     },
     {
       small: 'Alt',
       shift: null,
-      value: 'alt-right'
+      value: 'alt-right',
     },
     {
       small: 'Ctrl',
       shift: null,
-      value: 'control-right'
+      value: 'control-right',
     },
     {
       small: '&larr;',
       shift: null,
-      value: 'arrow-left'
+      value: 'arrow-left',
     },
     {
       small: '&darr;',
       shift: null,
-      value: 'arrow-down'
+      value: 'arrow-down',
     },
     {
       small: '&rarr;',
       shift: null,
-      value: 'arrow-right'
+      value: 'arrow-right',
     },
   ],
 };
