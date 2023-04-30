@@ -77,7 +77,7 @@ export default class Keyboard {
     descriptionText.classList.add('description');
     descriptionText.innerHTML = 'Keyboard made in Windows';
     descriptionText.append(document.createElement('br'));
-    descriptionText.append('To switch the language, use the Ctrl + Alt combination');
+    descriptionText.append('To switch the language, use the Ctrl + Space combination');
     this.main.append(descriptionText);
 
     this.saveLangToLocalStorage();
@@ -193,6 +193,7 @@ export default class Keyboard {
 
   keyDown(event) {
     event.preventDefault();
+    console.log(event);
     const key = document.querySelector(`.${event.code}`);
     if (key) {
       key.classList.add('active');
@@ -205,7 +206,7 @@ export default class Keyboard {
         this.pressShift = true;
         this.toggleCase();
       }
-      if (event.ctrlKey && event.altKey) {
+      if (event.ctrlKey && event.code === 'Space') {
         localStorage.setItem('lang', localStorage.getItem('lang') === 'en' ? 'ru' : 'en');
         this.lang = localStorage.getItem('lang');
         this.toggleLang();
