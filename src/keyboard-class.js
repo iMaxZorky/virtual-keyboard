@@ -140,7 +140,7 @@ export default class Keyboard {
     });
   }
 
-  outKey(key) {
+  trigger(key) {
     const index = this.textarea.selectionStart;
     const taVal = this.textarea.value;
     this.textarea.focus();
@@ -193,11 +193,10 @@ export default class Keyboard {
 
   keyDown(event) {
     event.preventDefault();
-    console.log(event);
     const key = document.querySelector(`.${event.code}`);
     if (key) {
       key.classList.add('active');
-      this.outKey(key);
+      this.trigger(key);
       if (key.classList.contains('CapsLock')) {
         this.pressCaps = !this.pressCaps;
         this.toggleCase();
@@ -237,7 +236,7 @@ export default class Keyboard {
     const key = event.target.closest('.keyboard__key');
     if (key) {
       key.classList.add('active');
-      this.outKey(key);
+      this.trigger(key);
       if (key.classList.contains('CapsLock')) {
         this.pressCaps = !this.pressCaps;
         this.toggleCase();
