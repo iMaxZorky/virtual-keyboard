@@ -169,16 +169,20 @@ export default class Keyboard {
           this.textarea.setSelectionRange(index + 4, index + 4);
           break;
         case '↓':
-          this.textarea.value += '↓';
+          this.textarea.value = `${taVal.slice(0, index)}↓${taVal.slice(index)}`;
+          this.textarea.setSelectionRange(index + 1, index + 1);
           break;
         case '↑':
-          this.textarea.value += '↑';
+          this.textarea.value = `${taVal.slice(0, index)}↑${taVal.slice(index)}`;
+          this.textarea.setSelectionRange(index + 1, index + 1);
           break;
         case '←':
-          this.textarea.value += '←';
+          this.textarea.value = `${taVal.slice(0, index)}←${taVal.slice(index)}`;
+          this.textarea.setSelectionRange(index + 1, index + 1);
           break;
         case '→':
-          this.textarea.value += '→';
+          this.textarea.value = `${taVal.slice(0, index)}→${taVal.slice(index)}`;
+          this.textarea.setSelectionRange(index + 1, index + 1);
           break;
 
         default:
@@ -187,7 +191,8 @@ export default class Keyboard {
     } else {
       const elements = key.querySelectorAll(':not(.hidden)');
       const symbol = elements.length === 2 ? elements[1].innerHTML : key.innerHTML;
-      this.textarea.value += symbol;
+      this.textarea.value = `${taVal.slice(0, index)}${symbol}${taVal.slice(index)}`;
+      this.textarea.setSelectionRange(index + 1, index + 1);
     }
   }
 
